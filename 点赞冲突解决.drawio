@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T10:43:21.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.3" etag="I_1_jN_LwQvua0ROSdNw" type="github"><diagram id="k1HN4tT9axCH4pNjfXuO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-21T10:46:46.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fLLvKY9BMNNe765e9Kv9" version="20.3.3" type="github">
+  <diagram id="k1HN4tT9axCH4pNjfXuO" name="第 1 页">
+    <mxGraphModel dx="1082" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WJsmH6C2vmImsCowjJDg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-5" target="WJsmH6C2vmImsCowjJDg-13">
+          <mxGeometry x="10" y="10" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-5" target="WJsmH6C2vmImsCowjJDg-8">
+          <mxGeometry x="10" y="10" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-5" value="第一次双击（未进入点赞状态）" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-8" target="WJsmH6C2vmImsCowjJDg-12">
+          <mxGeometry x="10" y="10" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-8" target="WJsmH6C2vmImsCowjJDg-10">
+          <mxGeometry x="10" y="10" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-8" value="后续的单、双击（处于点赞状态）" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-10" target="WJsmH6C2vmImsCowjJDg-11">
+          <mxGeometry x="10" y="10" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-10" value="脱离点赞状态" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-11" value="此时需要恢复单双击点赞状态的优先级判断" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="640" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-12" value="此时需要取消一开始设置的优先级判断，确保单双击事件都能响应，否则用户体验效果将会比较差" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="415" y="410" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-13" value="此时需要双击的优先级高于单击，否则将会永远无法进入双击点赞状态" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-15" target="WJsmH6C2vmImsCowjJDg-16">
+          <mxGeometry x="10" y="10" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-15" value="单击（未进入点赞状态）" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="75" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-16" value="区分点击了主播、嘉宾、空麦位画面" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJsmH6C2vmImsCowjJDg-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" source="WJsmH6C2vmImsCowjJDg-15" target="WJsmH6C2vmImsCowjJDg-5">
+          <mxGeometry x="10" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="250" as="sourcePoint" />
+            <mxPoint x="220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
