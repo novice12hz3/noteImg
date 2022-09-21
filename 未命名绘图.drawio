@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T09:50:23.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="f-7815XtKtqjxZuvA9vc" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T09:52:32.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LrL0z5_KcY9DJyjM27hr" version="20.3.3" type="github">
   <diagram id="4mXGyiAw5hAOJwqKoUxI" name="第 1 页">
     <mxGraphModel dx="1426" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wg5SZgvWH-cshUznqr1G-3" value="anchor" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+        <mxCell id="Wg5SZgvWH-cshUznqr1G-3" value="主播" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
           <mxGeometry x="60" y="80" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wg5SZgvWH-cshUznqr1G-4" value="server" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
@@ -13,7 +13,7 @@
         <mxCell id="Wg5SZgvWH-cshUznqr1G-5" value="RTC" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
           <mxGeometry x="420" y="80" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Wg5SZgvWH-cshUznqr1G-6" value="guest one" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+        <mxCell id="Wg5SZgvWH-cshUznqr1G-6" value="嘉宾A" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
           <mxGeometry x="660" y="80" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wg5SZgvWH-cshUznqr1G-7" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" diagramCategory="general" diagramName="dashed" edge="1" parent="1">
@@ -164,7 +164,7 @@
         <mxCell id="Wg5SZgvWH-cshUznqr1G-35" value="推流发送sei" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="540" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Wg5SZgvWH-cshUznqr1G-36" value="guest two" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+        <mxCell id="Wg5SZgvWH-cshUznqr1G-36" value="嘉宾B" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
           <mxGeometry x="870" y="80" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wg5SZgvWH-cshUznqr1G-37" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" diagramCategory="general" diagramName="dashed" edge="1" parent="1" target="Wg5SZgvWH-cshUznqr1G-36">
